@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, Sans-Serif;
+  padding: 10px;
+  text-align: center;
+}
+
+a:link, a:visited {
+  color: #0000ee;
+  text-decoration: none;
+}
+
+pre {
+  font-family: Arial, Sans-Serif;
+  line-height: 1.5;
+}
+
+div.container {
+  text-align: center;
+}
+
+ul.mylist {
+  display: inline-block;
+  text-align: left;
+  line-height: 2.0;
+}
