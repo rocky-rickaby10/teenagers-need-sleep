@@ -1,4 +1,10 @@
-:root{scroll-behavior:smooth}html,body{font-family:Arial,Sans-Serif;padding:10px;text-align:center}a:link,a:visited{color:#00e;text-decoration:none}a:hover{color:#000;text-decoration:underline}p{line-height:1.5}div.container{text-align:center}ul.mylist{display:inline-block;text-align:left;line-height:1.5}
+:root{scroll-behavior:smooth}html,body{font-family:Arial,Sans-Serif;padding:10px;text-align:center}a:link,a:visited{color:#00e;text-decoration:none}a:hover{color:#000;text-decoration:underline}div.container{text-align:center}ul.mylist{display:inline-block;text-align:left;line-height:1.5}
+
+p {
+  display: inline-block;
+  line-height: 1.5;
+  max-width: 500px;
+}
 
 .button {
   background-color: #04AA6D;
