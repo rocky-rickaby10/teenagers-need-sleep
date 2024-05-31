@@ -1,9 +1,18 @@
-:root{scroll-behavior:smooth}html,body{font-family:Arial,Sans-Serif;padding:10px;text-align:center}a:link,a:visited{color:#00e;text-decoration:none}a:hover{color:#000;text-decoration:underline}div.container{text-align:center}ul.mylist{display:inline-block;text-align:left;line-height:1.5}
+/* Additional Formatting */
+:root{scroll-behavior:smooth;}
+body {font-family:Arial,Sans-Serif;padding:10px;text-align:center}
+p{display:inline-block;line-height:1.5;max-width:500px}
+div.container{text-align:center}
+ul.mylist{display:inline-block;text-align:left;line-height:1.5}
+a:link, a:visited{color:#0000ee;text-decoration:none}a:hover{color:#000000;text-decoration:underline}
+.button:hover{background-color:#017D4F;}
+/* --- */
 
-p {
-  display: inline-block;
-  line-height: 1.5;
-  max-width: 500px;
+.gray-text {
+  display: block;
+  margin: auto;
+  font-style: italic;
+  color: #9A9D9E;
 }
 
 .button {
@@ -17,8 +26,4 @@ p {
   font-size: 16px;
   cursor: pointer;
   margin-top: 25px;
-}
-
-.button:hover {
-  background-color: #017D4F;
 }
